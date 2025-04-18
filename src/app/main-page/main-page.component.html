@@ -1,0 +1,14 @@
+
+<div class="flex h-screen overflow-hidden">
+    <!-- Menú lateral con rutas -->
+    <app-sidebar-menu></app-sidebar-menu>
+    <!-- <app-sidebar-menu (rutaCambiada)="actualizarRutaSeleccionada($event)"></app-rutas-sidebar> -->
+    
+    <!-- Contenedor del mapa -->
+    <div class="flex-1 overflow-hidden">
+      <app-mapa></app-mapa>
+      <!-- <app-mapa [rutaSeleccionadaNombre]="rutaSeleccionada" [tipoRutaSeleccionada]="tipoRutaSeleccionada"></app-mapa> -->
+    </div>
+</div>
+
+<router-outlet></router-outlet>
