@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { SidebarMenuComponent } from '../sidebar-menu/sidebar-menu.component';
-import { MapaComponent } from '../mapa/mapa.component';
+import { SidebarMenuComponent } from '../Frontend/sidebar-menu/sidebar-menu.component';
+import { MapaComponent } from '../Frontend/mapa/mapa.component';
 
 @Component({
   selector: 'app-main-page',

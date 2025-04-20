@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { MainPageComponent } from './main-page/main-page.component';
-import { SidebarMenuComponent } from './sidebar-menu/sidebar-menu.component';
+import { SidebarMenuComponent } from './Frontend/sidebar-menu/sidebar-menu.component';
 
 export const routes: Routes = [
 	{ path: '', component: MainPageComponent},
